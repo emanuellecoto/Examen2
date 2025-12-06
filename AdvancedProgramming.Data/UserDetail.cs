@@ -12,15 +12,21 @@ namespace AdvancedProgramming.Data
     using System;
     using System.Collections.Generic;
     
-    public partial class Task
+    public partial class UserDetail
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
+        public string Phone { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }
+        public string PostalZip { get; set; }
+        public string Region { get; set; }
+        public string Country { get; set; }
+        public Nullable<int> List { get; set; }
+        public string Text { get; set; }
+        public Nullable<int> NumberRange { get; set; }
+        public string Salary { get; set; }
+        public string Password { get; set; }
         public string Status { get; set; }
-        public Nullable<System.DateTime> DueDate { get; set; }
-        public Nullable<System.DateTime> CreatedAt { get; set; }
-        public Nullable<System.DateTime> LastModified { get; set; }
-        public string ModifiedBy { get; set; }
     }
 }

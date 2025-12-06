@@ -65,6 +65,13 @@ namespace AdvancedProgramming.Web.Models
     public class RegisterViewModel
     {
         [Required]
+        [Display(Name = "Id")]
+        public int Id { get; set; }
+
+        [Required]
+        [Display(Name = "Name")]
+        public string Name { get; set; }
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
@@ -83,6 +90,15 @@ namespace AdvancedProgramming.Web.Models
 
     public class ResetPasswordViewModel
     {
+        [Required]
+        [Display(Name = "Id")]
+        public int Id { get; set; }
+
+        [Required]
+        [Display(Name = "Name")]
+        public string Name { get; set; }
+
+
         [Required]
         [EmailAddress]
         [Display(Name = "Email")]

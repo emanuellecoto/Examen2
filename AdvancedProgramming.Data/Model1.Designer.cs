@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'E:\repositories\UFide\Progra Avanzada _\2025\Cuatrimestre 3\AdvancedProgramming.Web\AdvancedProgramming.Data\ProductModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Dylan\source\repos\PA3\AdvancedProgramming.Data\Model1.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

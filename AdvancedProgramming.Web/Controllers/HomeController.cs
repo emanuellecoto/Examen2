@@ -1,4 +1,4 @@
-﻿using AdvancedProgramming.Models;
+using AdvancedProgramming.Models;
 using AdvancedProgramming.Web.Filters;
 using System;
 using System.Collections.Generic;

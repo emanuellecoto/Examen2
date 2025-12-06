@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 
@@ -57,7 +57,7 @@ namespace AdvancedProgramming.Data.Repositories
         /// <summary>
         /// The Entity Framework database context used for data access.
         /// </summary>
-        protected readonly ProductDBEntities _context;
+        protected readonly APCEOneEntities _context;
 
         /// <summary>
         /// The Entity Framework DbSet for the entity type T.
@@ -69,7 +69,7 @@ namespace AdvancedProgramming.Data.Repositories
         /// </summary>
         public RepositoryBase()
         {
-            _context = new ProductDBEntities();
+            _context = new APCEOneEntities();
             _set = _context.Set<T>();
         }
 
